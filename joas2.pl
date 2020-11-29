@@ -1,21 +1,34 @@
-instrumento(guitarra):- profissional(nao),garotas(sim),bebado(sim).
-instrumento(piano):- profissional(nao),garotas(sim),bebado(nao).
-instrumento(fagote):- profissional(nao),garotas(nao),caras(nao).
-instrumento(opera):- profissional(nao),garotas(nao),caras(sim),gay(sim).
-instrumento(bateria):- profissional(nao),garotas(nao),caras(sim),gay(nao).
-instrumento(guitarra):- profissional(nao),garotas(nao),caras(sim),gay(nao),garotas(sim),bebado(sim).
-instrumento(piano):- profissional(nao),garotas(nao),caras(sim),gay(nao),garotas(sim),bebado(nao).
-instrumento(PARE):- profissional(sim),rico(nao),dinheiro(sim).
-instrumento(viola):- profissional(sim),rico(nao),dinheiro(nao),curtir(nao),praticar(nao),ler(nao).
-instrumento(harpa):- profissional(sim),rico(nao),dinheiro(nao),curtir(nao),praticar(nao),ler(sim).
-instrumento(flauta):- profissional(sim),rico(nao),dinheiro(nao),curtir(nao),praticar(sim),ensinar(sim).
-instrumento(violino):- profissional(sim),rico(nao),dinheiro(nao),curtir(nao),praticar(sim),ensinar(nao).
-instrumento(trombone):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(naosei).
-instrumento(sax):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(nao),jazz(sim).
-instrumento(trompete):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(nao),jazz(nao),alemao(sim).
-instrumento(didgeridoo):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(nao),jazz(nao),alemao(nao).
-instrumento(oboe):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(sim),diaenoite(sim).
-instrumento(trompa):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(sim),diaenoite(nao),emprego(nao).
-instrumento(clarinete):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(sim),classica(sim),diaenoite(nao),emprego(sim).
-instrumento(bandolin):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(nao),quente(nao).
-instrumento(cello):- profissional(sim),rico(nao),dinheiro(nao),curtir(sim),cerveja(nao),quente(sim).
+profissional('nao').
+garotas('sim').
+bebado('sim').
+caras('nao').
+gay('nao').
+rico('nao').
+dinheiro('nao').
+curtir('sim').
+cerveja('sim').
+classica('nao').
+jazz('sim').
+
+
+instrumento('guitarra'):- profissional('nao'),garotas('sim'),bebado('sim').
+instrumento('piano'):- profissional('nao'),garotas('sim'),bebado('nao').
+instrumento('fagote'):- profissional('nao'),garotas('nao'),caras('nao').
+instrumento('opera'):- profissional('nao'),garotas('nao'),caras('sim'),gay('sim').
+instrumento('bateria'):- profissional('nao'),garotas('nao'),caras('sim'),gay('nao').
+instrumento('guitarra'):- profissional('nao'),garotas('nao'),caras('sim'),gay('nao'),garotas('sim'),bebado('sim').
+instrumento('piano'):- profissional('nao'),garotas('nao'),caras('sim'),gay('nao'),garotas('sim'),bebado('nao').
+instrumento('PARE'):- profissional('sim'),rico('nao'),dinheiro('sim').
+instrumento('viola'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('nao'),praticar('nao'),ler('nao').
+instrumento('harpa'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('nao'),praticar('nao'),ler('sim').
+instrumento('flauta'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('nao'),praticar('sim'),ensinar('sim').
+instrumento('violino'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('nao'),praticar('sim'),ensinar('nao').
+instrumento('trombone'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('nao'sei).
+instrumento('sax'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('nao'),jazz('sim').
+instrumento('trompete'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('nao'),jazz('nao'),alemao('sim').
+instrumento('didgeridoo'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('nao'),jazz('nao'),alemao('nao').
+instrumento('oboe'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('sim'),diaenoite('sim').
+instrumento('trompa'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('sim'),diaenoite('nao'),emprego('nao').
+instrumento('clarinete'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('sim'),classica('sim'),diaenoite('nao'),emprego('sim').
+instrumento('bandolin'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('nao'),quente('nao').
+instrumento('cello'):- profissional('sim'),rico('nao'),dinheiro('nao'),curtir('sim'),cerveja('nao'),quente('sim').
